@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <img src="http://escolacapoeira.hu/wp-content/uploads/2019/10/shutterstock_1279510786.jpg" alt="capoeira" width="420">
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -35,6 +36,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      
+    }
   }
 }
 </script>
