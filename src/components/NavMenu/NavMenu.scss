@@ -12,9 +12,10 @@
 }
 
 #menu-bar{
-    @include media-breakpoint-down(sm) {
-        display: none;
-    }
+    border-bottom: 3px rgb(224, 224, 224) solid;
+    // @include media-breakpoint-down(sm) {
+    //     display: none;
+    // }
 }
 
 .nav-link{
