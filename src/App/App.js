@@ -48,7 +48,7 @@ export default {
                     component: "ROLÚNK",
                     request: {
                         method: "GET",
-                        routeEndPoint: "http://localhost:8000/",
+                        routeEndPoint: "http://escolacapoeira.hu/",
                         path: "wp-json/wp/v2/pages/6"
                     }
                 },
