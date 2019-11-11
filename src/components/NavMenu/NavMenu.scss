@@ -3,6 +3,19 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
+#navbar-title{
+    margin-top: 10px;
+    
+    @include media-breakpoint-down(sm) {
+        font-size: 28px;
+        width: 160px;
+        margin-left: -60px;
+        // text-align: left;
+        // display: none;
+    }
+    
+}
+
 
 #menu li{
     display: block;
