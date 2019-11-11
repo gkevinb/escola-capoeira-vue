@@ -6,7 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "copy-dist": "copyfiles 'dist/**/*' './' -u 1"
+    "clean": "rimraf dist && rimraf css && rimraf js && rimraf index.html",
+    "copy-dist": "copyfiles 'dist/**/*' './' -u 1",
+    "deploy": "npm run clean && npm run build && npm run copy-dist",
+    "deploy-gh": "npm run deploy && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
   },
   "dependencies": {
     "axios": "^0.19.0",
