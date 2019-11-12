@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ?
-        '/escola-capoeira-vue/' :
-        '/'
+        '/wp-content/themes/vuefrontend/' :
+        '/escola-capoeira-vue/'
 }
