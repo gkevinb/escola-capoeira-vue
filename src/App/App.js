@@ -32,7 +32,7 @@ export default {
                     component: "EDZÉSEK",
                     request: {
                         method: "GET",
-                        routeEndPoint: "http://escolacapoeira.hu/",
+                        routeEndPoint: "https://escolacapoeira.hu/",
                         path: "wp-json/wp/v2/pages/24"
                     }
                 },
@@ -40,7 +40,7 @@ export default {
                     component: "ENGLISH",
                     request: {
                         method: "GET",
-                        routeEndPoint: "http://escolacapoeira.hu/",
+                        routeEndPoint: "https://escolacapoeira.hu/",
                         path: "wp-json/wp/v2/pages/197"
                     }
                 },
@@ -48,7 +48,7 @@ export default {
                     component: "ROLÚNK",
                     request: {
                         method: "GET",
-                        routeEndPoint: "http://escolacapoeira.hu/",
+                        routeEndPoint: "https://escolacapoeira.hu/",
                         path: "wp-json/wp/v2/pages/6"
                     }
                 },
