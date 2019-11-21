@@ -1,0 +1,15 @@
+<div class='practice'>
+
+    <h3>{{ practice.place }}</h3>
+
+    <p v-for='time in practice.times'>{{ time }}</p>
+
+    <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <a :href="practice.mapLink">{{ practice.address }}</a>
+    </div>
+    <div>
+        <i class="fas fa-user"></i>
+        <a :href="practice.facebookLink">{{ practice.trainer }}</a>
+    </div>
+</div>
