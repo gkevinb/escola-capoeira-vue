@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-dev": "vue-cli-service build --mode development",
+    "build-staging": "vue-cli-service build --mode staging",
     "lint": "vue-cli-service lint",
     "clean": "rimraf dist && rimraf css && rimraf js && rimraf index.html",
     "copy-dist": "copyfiles 'dist/**/*' './' -u 1",
@@ -15,7 +15,7 @@
     "clean-wp": "rimraf ../escola-capoeira/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira/wp-content/themes/vuefrontend/js",
     "rename-wp": "mv dist/index.html dist/index.php",
     "deploy-wp": "npm run build && npm run replace-head && npm run replace-body && npm run rename-wp && npm run clean-wp && npm run copy-wp",
-    "deploy-gh": "npm run clean && npm run build-dev && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
+    "deploy-gh": "npm run clean && npm run build-staging && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
   },
   "dependencies": {
     "axios": "^0.19.0",

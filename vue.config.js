@@ -1,5 +1,11 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ?
-        '/wp-content/themes/vuefrontend/' :
-        '/escola-capoeira-vue/'
+    publicPath: determineEnvirontment(process.env.NODE_ENV)
+}
+function determineEnvirontment(env){
+    if (env === 'production')
+        return '/wp-content/themes/vuefrontend/'
+    if (env === 'staging')
+        return '/escola-capoeira-vue/'
+    else
+        return '/'
 }
