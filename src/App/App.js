@@ -73,7 +73,6 @@ export default {
     created() {
         /* Perform all API calls to get data needed to populate all content for each component properly */
         for (let api of this.apis) {
-            console.log("hel")
             this.apiCall(api.component, api.request);
         }
     },
@@ -96,7 +95,6 @@ export default {
             /* Note: GET is hardcoded, for know, since it is the only type of request made */
             API.get(request.path)
                 .then(response => {
-                    console.log(response.data.content)
                     this.inputData[component] = response.data.content;
                 });
         },

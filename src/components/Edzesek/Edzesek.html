@@ -1,5 +1,18 @@
 <!-- <div id="edzesek" v-html="input['rendered']"></div> -->
 <div id="edzesek">
-    <practice :practice='practices[0]'></practice>
-
+    <div class="jumbotron text-center">
+        <h1>Budapest</h1>
+    </div>
+    <div class="row">
+        <div v-for="practice in practices" class="col-sm-6">
+        <!-- <div v-for="practice in practices" class="card-group"> -->
+            <practice :practice="practice"></practice>
+        </div>
+    </div>
+    <div class="jumbotron text-center">
+        <h1>Kecskemet</h1>
+    </div>
+    <div class="jumbotron text-center">
+        <h1>Jaszbereny</h1>
+    </div>
 </div>
