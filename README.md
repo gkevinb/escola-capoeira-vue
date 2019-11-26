@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Compiles for staging
+```
+npm run build-staging
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
@@ -18,6 +23,16 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Pushing master to Azure Devops
+```
+git push devops master
+```
+
+### Pushing master to Github
+```
+git push github master
 ```
 
 ### Deploy to Github Pages
@@ -29,8 +44,6 @@ npm run deploy-gh
 Note, this command executes a `git` commit and pushes to the Github repository.
 
 ### Deploy Frontend to Wordpress
-
-Run the following command
 ```
 npm run deploy-wp
 ```
