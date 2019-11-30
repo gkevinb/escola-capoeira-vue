@@ -1,18 +1,8 @@
 <!-- <div id="edzesek" v-html="input['rendered']"></div> -->
 <div id="edzesek">
-    <div class="jumbotron text-center">
-        <h1>Budapest</h1>
-    </div>
-    <div class="row">
-        <div v-for="practice in practices" class="col-sm-6">
-        <!-- <div v-for="practice in practices" class="card-group"> -->
-            <practice :practice="practice"></practice>
-        </div>
-    </div>
-    <div class="jumbotron text-center">
-        <h1>Kecskemet</h1>
-    </div>
-    <div class="jumbotron text-center">
-        <h1>Jaszbereny</h1>
-    </div>
+
+    <city cityName="Budapest" :practices="filterPracticesByCity('Budapest')"></city>
+    <city cityName="Kecskemét" :practices="filterPracticesByCity('Kecskemét')"></city>
+    <city cityName="Jászberény" :practices="filterPracticesByCity('Jászberény')"></city>
+
 </div>

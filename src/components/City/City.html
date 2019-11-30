@@ -1,0 +1,11 @@
+<div class="city-section">
+    <div class="jumbotron text-center">
+        <h1>{{ cityName }}</h1>
+    </div>
+    <div class="row">
+        <div v-for="practice in practices" class="col-sm-6">
+            <!-- <div v-for="practice in practices" class="card-group"> -->
+            <practice :practice="practice"></practice>
+        </div>
+    </div>
+</div>
