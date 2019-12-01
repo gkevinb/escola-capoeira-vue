@@ -4,21 +4,22 @@
         <ul v-for="time in practice.times" class="list-group list-group-flush">
             <li class="list-group-item">{{ time }}</li>
         </ul>
-
-        <div class="card-body">
-            <a :href="practice.mapLink"><button type="button" class="btn btn-outline-dark"><i
-                        class="fas fa-map-marker-alt"></i> {{ practice.address }}</button></a>
-            <a :href="practice.facebookLink"><button type="button" class="btn btn-outline-dark"><i
-                        class="fas fa-user"></i> {{ practice.trainer }}</button></a>
+        <div class="card-body button-group">
+            <a :href="practice.mapLink" target="_blank">
+                <button type="button" class="btn btn-outline-dark button-link">
+                    <i class="fas fa-map-marker-alt"></i> {{ practice.address }}
+                </button>
+            </a>
+            <a @click="redirectFacebook()">
+                <button type="button" class="btn btn-outline-dark button-link">
+                    <i class="fas fa-user"></i> {{ practice.trainer }}
+                </button>
+            </a>
+            <a v-if="practice.websiteLink" :href="practice.websiteLink" target="_blank">
+                <button type="button" class="btn btn-outline-dark button-link">
+                    <i class="fas fa-globe"></i> {{ stripHTTP(practice.websiteLink) }}
+                </button>
+            </a>
         </div>
-        <!-- <div>
-            <i class="fas fa-map-marker-alt"></i>
-            <a :href="practice.mapLink">{{ practice.address }}</a>
-        </div>
-        <div>
-            <i class="fas fa-user"></i>
-            <a :href="practice.facebookLink">{{ practice.trainer }}</a>
-        </div> -->
-
     </div>
 </div>
