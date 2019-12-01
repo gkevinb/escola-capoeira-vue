@@ -4,6 +4,7 @@ import Edzesek from '../components/Edzesek/Edzesek.vue'
 import English from '../components/English/English.vue'
 import Rolunk from '../components/Rolunk/Rolunk.vue'
 import Kapcsolat from '../components/Kapcsolat/Kapcsolat.vue'
+import Footer from '../components/Footer/Footer.vue'
 
 import axios from 'axios';
 
@@ -15,7 +16,8 @@ export default {
         'edzések-tab': Edzesek,
         'english-tab': English,
         'rolúnk-tab': Rolunk,
-        'kapcsolat-tab': Kapcsolat
+        'kapcsolat-tab': Kapcsolat,
+        'footer-comp': Footer
     },
     data() {
         return {

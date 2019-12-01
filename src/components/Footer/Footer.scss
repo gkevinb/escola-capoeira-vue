@@ -1,0 +1,26 @@
+.footer {
+    color: white;
+    background-color: #383B45;
+    height: 140px;
+    width: 100%;
+
+    margin: auto;
+    left: 0;
+
+    padding: 40px;
+
+    $grey: grey;
+    a {
+        text-decoration: none;
+        color: $grey;
+    }
+    a:active {
+        color: $grey;
+    }
+    a:visited {
+        color: $grey;
+    }
+    a:hover {
+        color: $grey;
+    }
+}
