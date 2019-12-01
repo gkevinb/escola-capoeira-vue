@@ -31,14 +31,6 @@ export default {
             },
             apis: [
                 {
-                    component: "EDZÉSEK",
-                    request: {
-                        method: "GET",
-                        routeEndPoint: "https://escolacapoeira.hu/",
-                        path: "wp-json/wp/v2/pages/24"
-                    }
-                },
-                {
                     component: "ENGLISH",
                     request: {
                         method: "GET",
@@ -54,21 +46,10 @@ export default {
                         path: "wp-json/wp/v2/pages/6"
                     }
                 },
-                // {
-                //     component: "KAPCSOLAT",
-                //     request: {
-                //         method: "GET",
-                //         routeEndPoint: "http://escolacapoeira.hu/",
-                //         path: "wp-json/wp/v2/pages/13"
-                //     }
-                // },
             ],
             inputData: {
-                Kezdolap: null,
-                EDZÉSEK: null,
-                English: null,
-                Rolunk: null,
-                Kapcsolat: null
+                ENGLISH: null,
+                ROLÚNK: null,
             }
         };
     },

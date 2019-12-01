@@ -1,7 +1,7 @@
 .footer {
     color: white;
     background-color: #383B45;
-    height: 140px;
+    height: 200px;
     width: 100%;
 
     margin: auto;
@@ -9,18 +9,23 @@
 
     padding: 40px;
 
-    $grey: grey;
+    i{
+        font-size: 32px;
+        margin: 10px;
+    }
+
+    $link-color: white;
     a {
         text-decoration: none;
-        color: $grey;
+        color: $link-color;
     }
     a:active {
-        color: $grey;
+        color: $link-color;
     }
     a:visited {
-        color: $grey;
+        color: $link-color;
     }
     a:hover {
-        color: $grey;
+        color: $link-color;
     }
 }
