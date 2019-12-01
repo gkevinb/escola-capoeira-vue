@@ -1,3 +1,11 @@
+$grid-breakpoints: (
+    xs: 320,
+    sm: 600px,
+    md: 800px,
+    lg: 1000px,
+    xl: 1280px
+);
+
 /* Bootstrap components */
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
@@ -10,7 +18,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;

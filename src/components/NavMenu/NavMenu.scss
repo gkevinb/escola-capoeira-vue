@@ -1,7 +1,16 @@
+@import "../../assets/breakpoints";
+
 /* Bootstrap components */
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+#escola-logo{
+    @include media-breakpoint-down(sm) {
+        margin-left: -10px;
+    }
+}
+
 
 #navbar-title{
     margin-top: 10px;
@@ -9,9 +18,13 @@
     @include media-breakpoint-down(sm) {
         font-size: 28px;
         width: 160px;
-        margin-left: -60px;
+        margin-left: -42px;
         // text-align: left;
         // display: none;
+    }
+    @include media-breakpoint-down(xs) {
+        // font-size: 16px;
+        display: none;
     }
     
 }
