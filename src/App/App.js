@@ -15,7 +15,7 @@ export default {
         'kezdőlap-tab': Kezdolap,
         'edzések-tab': Edzesek,
         'english-tab': English,
-        'rolúnk-tab': Rolunk,
+        'rólunk-tab': Rolunk,
         'kapcsolat-tab': Kapcsolat,
         'footer-comp': Footer
     },
@@ -26,7 +26,7 @@ export default {
                 KEZDŐLAP: [],
                 EDZÉSEK: [],
                 ENGLISH: [],
-                ROLÚNK: [],
+                RÓLUNK: [],
                 KAPCSOLAT: []
             },
             apis: [
@@ -37,19 +37,10 @@ export default {
                         routeEndPoint: "https://escolacapoeira.hu/",
                         path: "wp-json/wp/v2/pages/197"
                     }
-                },
-                {
-                    component: "ROLÚNK",
-                    request: {
-                        method: "GET",
-                        routeEndPoint: "https://escolacapoeira.hu/",
-                        path: "wp-json/wp/v2/pages/6"
-                    }
-                },
+                }
             ],
             inputData: {
-                ENGLISH: null,
-                ROLÚNK: null,
+                ENGLISH: null
             }
         };
     },

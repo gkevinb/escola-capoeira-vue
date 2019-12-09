@@ -60,8 +60,10 @@ export default {
                     address: 'Katona József tér 14.',
                     times: [ 'Kedd: 18:00-19:30', 'Csütörtök: 18:00-19:30'],
                     mapLink: 'https://www.google.com/maps/place/Kecskem%C3%A9ti+Belv%C3%A1rosi+Zr%C3%ADnyi+Ilona+%C3%81ltal%C3%A1nos+Iskola/@46.9088455,19.6910828,14.86z/data=!4m5!3m4!1s0x4743da142a8d712d:0x21bcfa36fd9fe096!8m2!3d46.905302!4d19.69419',
-                    facebookLink: 'https://www.facebook.com/kriszt.sandor',
-                    facebookId: '100000745997402',
+                    // facebookLink: 'https://www.facebook.com/kriszt.sandor',
+                    // facebookId: '100000745997402',
+                    facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
+                    facebookId: '474188249324250',
                     websiteLink : 'http://capoeirakecskemet.hu/'
                 },
                 {
@@ -71,8 +73,10 @@ export default {
                     address: 'Burga utca 1.',
                     times: [ 'Vasárnap 16:00-17:30'],
                     mapLink: 'https://www.google.com/maps/place/Kecskem%C3%A9t,+Burga+u.+1,+6000/@46.9008225,19.6820888,15.23z/data=!4m5!3m4!1s0x4743da6cb54ca53d:0x7356ff80c2b12d43!8m2!3d46.9015536!4d19.6866855',
-                    facebookLink: 'https://www.facebook.com/kriszt.sandor',
-                    facebookId: '100000745997402',
+                    // facebookLink: 'https://www.facebook.com/kriszt.sandor',
+                    // facebookId: '100000745997402',
+                    facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
+                    facebookId: '474188249324250',
                     websiteLink : 'http://capoeirakecskemet.hu/'
                 },
                 {

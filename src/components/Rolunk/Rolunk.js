@@ -1,5 +1,5 @@
 export default {
-    name: "rolúnk-tab",
+    name: "rólunk-tab",
     props: {
         input: Object
     },
