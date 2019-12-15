@@ -1,8 +1,9 @@
 <div id=menu-bar>
     <nav class="navbar navbar-expand-lg navbar-light white">
-        <a id="escola-logo" class="navbar-brand" href="#" @click="setCurrentTab('KEZDŐLAP')">
+        <a id="escola-logo" class="navbar-brand" :href="url">
             <img src="http://escolacapoeira.hu/wp-content/uploads/2019/10/cropped-final_local_media6157434894711130622_fe0b984429dc4a66ab3b5698f4455fb8.-300x251.jpg"
                 alt="capoeira" width="100">
+            <!-- E.S.C.O.L.A. CAPOEIRA -->
         </a>
         <h1 id="navbar-title">ESCOLA CAPOEIRA</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -13,21 +14,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li v-for="(subtabs, tab) in tabs" class="nav-item" :id="tab" @click="setCurrentTab(tab)">
-                    <a class="nav-link" href="#">{{ tab }}</a>
+                    <div class="nav-link">{{ tab }}</div>
                 </li>
-                <!-- <a class="nav-link" href="#">KEZDŐLAP</a> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">EDZÉSEK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ENGLISH</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ROLÚNK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">KAPCSOLAT</a>
-                </li> -->
             </ul>
         </div>
     </nav>

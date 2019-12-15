@@ -5,16 +5,16 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
-#escola-logo{
+#escola-logo {
     @include media-breakpoint-down(sm) {
         margin-left: -10px;
     }
 }
 
 
-#navbar-title{
+#navbar-title {
     margin-top: 10px;
-    
+
     @include media-breakpoint-down(sm) {
         font-size: 28px;
         width: 160px;
@@ -22,35 +22,37 @@
         // text-align: left;
         // display: none;
     }
+
     @include media-breakpoint-down(xs) {
         // font-size: 16px;
         display: none;
     }
-    
+
 }
 
 
-#menu li{
+#menu li {
     display: block;
+
     @include media-breakpoint-down(sm) {
         border: 3px solid red;
     }
 }
 
-#menu-bar{
+#menu-bar {
     border-bottom: 3px rgb(224, 224, 224) solid;
     // @include media-breakpoint-down(sm) {
     //     display: none;
     // }
 }
 
-.nav-link{
-    a{
-        font-size: 22px;
-        color: black;
-        text-decoration: none;
-    }
-    a:hover{
-        color: black;
-    }
+.nav-link {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+    cursor: pointer;
 }
