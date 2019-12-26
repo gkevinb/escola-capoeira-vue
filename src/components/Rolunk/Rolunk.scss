@@ -6,11 +6,9 @@
 
 #rolunk{
     video{
+        max-width: 100%;
+        height: auto;
         margin-bottom: 30px;
-        @include media-breakpoint-down(sm) {
-            width: 320px;
-            height: 180px;
-        }
     }
 
     img{
