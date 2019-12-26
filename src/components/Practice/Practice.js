@@ -14,10 +14,13 @@ export default {
             return this.practice.websiteLink.slice(7, this.practice.websiteLink.length - 1)
         },
         redirectFacebook: function () {
-            setTimeout(function () {
+            let mobileDeviceTestExp = new RegExp('Android|webOS|iPhone|iPad|' + 'BlackBerry|Windows Phone|' + 'Opera Mini|IEMobile|Mobile' , 'i');
+            /* Tests if mobile device */
+            if (mobileDeviceTestExp.test(navigator.userAgent)){
+                window.location.assign('fb://profile/' + this.practice.facebookId)
+            }else{
                 window.location.assign(this.practice.facebookLink)
-            }.bind(this), 200);
-            window.location.assign('fb://profile/' + this.practice.facebookId)
+            }
         }
     }
 };

@@ -42,10 +42,13 @@ export default {
             return 'tel:' + phoneNumber
         },
         redirectFacebook: function (contact) {
-            setTimeout(function () {
+            let mobileDeviceTestExp = new RegExp('Android|webOS|iPhone|iPad|' + 'BlackBerry|Windows Phone|' + 'Opera Mini|IEMobile|Mobile' , 'i');
+            /* Tests if mobile device */
+            if (mobileDeviceTestExp.test(navigator.userAgent)){
+                window.location.assign('fb://profile/' + contact.facebookId)
+            }else{
                 window.location.assign(contact.facebookLink)
-            }, 200);
-            window.location.assign('fb://profile/' + contact.facebookId)
+            }
         }
     }
 };
