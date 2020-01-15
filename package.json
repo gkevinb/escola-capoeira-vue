@@ -11,8 +11,8 @@
     "copy-dist": "copyfiles 'dist/**/*' './docs/' -u 1",
     "replace-head": "sed -i '' 's#</head>#<?php wp_head(); ?></head>#g' dist/index.html",
     "replace-body": "sed -i '' 's#</body>#<?php wp_footer(); ?></body>#g' dist/index.html",
-    "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira/wp-content/themes/vuefrontend' -u 1",
-    "clean-wp": "rimraf ../escola-capoeira/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira/wp-content/themes/vuefrontend/js",
+    "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira-staging/wp-content/themes/vuefrontend' -u 1",
+    "clean-wp": "rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/js",
     "rename-wp": "mv dist/index.html dist/index.php",
     "deploy-wp": "npm run build && npm run replace-head && npm run replace-body && npm run rename-wp && npm run clean-wp && npm run copy-wp",
     "deploy-gh": "npm run clean && npm run build-staging && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
