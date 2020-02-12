@@ -2,6 +2,7 @@ export default {
     name: "kapcsolat-tab",
     data() {
         return {
+            email: 'info@escolacapoeira.hu',
             contacts: [
                 {
                     name: 'Tocha Fabiano',

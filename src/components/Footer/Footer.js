@@ -16,6 +16,9 @@ export default {
             }else{
                 window.location.assign('https://www.facebook.com/escolacapoeirahu/')
             }
+        },
+        getCurrentYear: function () {
+            return new Date().getFullYear();
         }
     }
 };
