@@ -5,6 +5,7 @@ import English from '../components/English/English.vue'
 import Rolunk from '../components/Rolunk/Rolunk.vue'
 import Kapcsolat from '../components/Kapcsolat/Kapcsolat.vue'
 import Footer from '../components/Footer/Footer.vue'
+import KepGallery from '../components/Gallery/Gallery.vue'
 
 import axios from 'axios';
 
@@ -17,6 +18,7 @@ export default {
         'english-tab': English,
         'rólunk-tab': Rolunk,
         'kapcsolat-tab': Kapcsolat,
+        'képgaléria-tab': KepGallery,
         'footer-comp': Footer
     },
     data() {
@@ -25,12 +27,17 @@ export default {
             tabs: {
                 KEZDŐLAP: [],
                 EDZÉSEK: [],
+                KÉPGALÉRIA: [],
                 ENGLISH: [],
                 RÓLUNK: [],
                 KAPCSOLAT: []
             },
             apis: [
                 {
+                    /*  
+                        These are not used right now, but shown for an example,
+                        to request data annd inject in component
+                    */
                     component: "ENGLISH",
                     request: {
                         method: "GET",
