@@ -6,8 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false
 
+
 Vue.use(VueGtag, {
-    config: { id: process.env.VUE_GA_TRACKING_ID }
+    config: { id: process.env.VUE_GTAG_TRACKING_ID }
 });
 
 new Vue({
