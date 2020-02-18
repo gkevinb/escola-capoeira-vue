@@ -78,7 +78,6 @@ export default {
                 .then(response => {
                     this.inputData[component] = response.data.content;
                 });
-        },
-
+        }
     }
 };

@@ -11,6 +11,8 @@
     "copy-dist": "copyfiles 'dist/**/*' './docs/' -u 1",
     "replace-head": "sed -i '' 's#</head>#<?php wp_head(); ?></head>#g' dist/index.html",
     "replace-body": "sed -i '' 's#</body>#<?php wp_footer(); ?></body>#g' dist/index.html",
+    "inject-google-analytics-wp": "gtag UA-141910422-2 public/index.html",
+    "inject-google-analytics-gh": "gtag UA-141910422-1 public/index.html",
     "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira-staging/wp-content/themes/vuefrontend' -u 1",
     "clean-wp": "rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/js",
     "rename-wp": "mv dist/index.html dist/index.php",
@@ -23,7 +25,8 @@
     "core-js": "^3.4.8",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-gtag": "^1.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.1",
@@ -32,7 +35,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
