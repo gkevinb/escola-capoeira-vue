@@ -11,8 +11,6 @@
     "copy-dist": "copyfiles 'dist/**/*' './docs/' -u 1",
     "replace-head": "sed -i '' 's#</head>#<?php wp_head(); ?></head>#g' dist/index.html",
     "replace-body": "sed -i '' 's#</body>#<?php wp_footer(); ?></body>#g' dist/index.html",
-    "inject-google-analytics-wp": "gtag UA-141910422-2 public/index.html",
-    "inject-google-analytics-gh": "gtag UA-141910422-1 public/index.html",
     "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira-staging/wp-content/themes/vuefrontend' -u 1",
     "clean-wp": "rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/js",
     "rename-wp": "mv dist/index.html dist/index.php",
