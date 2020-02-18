@@ -8,7 +8,7 @@ Vue.config.productionTip = false
 
 
 Vue.use(VueGtag, {
-    config: { id: process.env.VUE_GTAG_TRACKING_ID }
+    config: { id:'UA-141910422-1' }
 });
 
 new Vue({
