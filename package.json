@@ -18,24 +18,24 @@
     "deploy-gh": "npm run clean && npm run build-staging && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "core-js": "^3.4.8",
+    "core-js": "^3.6.4",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "vue": "^2.6.10",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
     "vue-gtag": "^1.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.1.1",
-    "@vue/cli-plugin-eslint": "^4.1.1",
-    "@vue/cli-service": "^4.1.1",
-    "babel-eslint": "^10.0.1",
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/cli-service": "^4.2.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
