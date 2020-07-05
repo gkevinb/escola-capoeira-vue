@@ -16,6 +16,16 @@ export default {
                 {
                     trainer: 'Contramestre Tocha',
                     city: 'Budapest',
+                    place: 'MARGITSZIGET (Nyári Edzés)',
+                    address: 'Margitsziget',
+                    times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
+                    mapLink: 'https://www.google.com/maps/place/Margaret+Island/@47.5224804,19.0442153,14.79z/data=!4m5!3m4!1s0x4741dbfc77cfaad7:0x689f7bae3aa650fd!8m2!3d47.5266408!4d19.0463939',
+                    facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    facebookId: '100000954874709'
+                },
+                {
+                    trainer: 'Contramestre Tocha',
+                    city: 'Budapest',
                     place: 'VÖRÖSMARTY MIHÁLY GIMNÁZIUM',
                     address: 'Horánszky utca 11.',
                     times: [ 'Hétfő: 20:00-21:30', 'Szerda: 19:00-20.30'],
