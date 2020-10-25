@@ -20,6 +20,11 @@
                     <i class="fas fa-globe"></i> {{ stripHTTP(practice.websiteLink) }}
                 </button>
             </a>
+            <a v-if="practice.phone" :href="formatPhoneLink(practice.phone)" target="_blank">
+                <button type="button" class="btn btn-outline-dark button-link">
+                    <i class="fas fa-phone"></i> {{ practice.phone }}
+                </button>
+            </a>
         </div>
     </div>
 </div>

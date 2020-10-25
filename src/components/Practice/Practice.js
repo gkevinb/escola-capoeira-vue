@@ -13,6 +13,9 @@ export default {
         stripHTTP: function () {
             return this.practice.websiteLink.slice(7, this.practice.websiteLink.length - 1)
         },
+        formatPhoneLink: function(phoneNumber) {
+            return 'tel:' + phoneNumber
+        },
         redirectFacebook: function () {
             let mobileDeviceTestExp = new RegExp('Android|webOS|iPhone|iPad|' + 'BlackBerry|Windows Phone|' + 'Opera Mini|IEMobile|Mobile' , 'i');
             /* Tests if mobile device */

@@ -24,14 +24,7 @@ export default {
                     facebookLink: 'https://www.facebook.com/andras.botos.3',
                     facebookId: '100001537112922',
                     phone: '+36303142189'
-                },
-                // {
-                //     name: 'Ács Bea',
-                //     capoeiraName: 'Graduada Bea',
-                //     facebookLink: 'https://www.facebook.com/bea.acs.5',
-                //     facebookId: '615787357',
-                //     phone: '+36302517231'
-                // },
+                }
             ]
         };
     },
