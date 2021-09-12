@@ -57,21 +57,21 @@ export default {
                     trainer: 'Contramestre Tocha',
                     city: 'Budapest',
                     place: 'CSÍK FERENC ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM (Gyerekedzés)',
-                    address: 'Medve utca 1.',
-                    times: [ 'Kedd: 16:00-17:00', 'Csütörtök: 16:00-17:00'],
-                    mapLink: 'https://www.google.com/maps/place/Csik+Ferenc+%C3%81ltal%C3%A1nos+Iskola+%C3%A9s+Gimn%C3%A1zium/@47.5088394,19.0282803,14.6z/data=!4m5!3m4!1s0x4741dc1b8a4a5b75:0xdac38a057a5e5a68!8m2!3d47.508614!4d19.0357701',
+                    address: 'Medve utca 5-7.',
+                    times: [ 'Kedd: 17:00-18:00', 'Csütörtök: 17:00-18:00'],
+                    mapLink: 'https://www.google.hu/maps/place/Csik+Ferenc+%C3%81ltal%C3%A1nos+Iskola+%C3%A9s+Gimn%C3%A1zium/@47.508314,19.0353854,19z/data=!4m13!1m7!3m6!1s0x4741dc1b8a0a946f:0xfa739fdd81afe4e2!2sBudapest,+Medve+u.+1,+1027!3b1!8m2!3d47.5079118!4d19.0358038!3m4!1s0x4741dc1b8a4a5b75:0xdac38a057a5e5a68!8m2!3d47.508614!4d19.03577',
                     facebookLink: 'https://www.facebook.com/tocha.cecab',
                     facebookId: '100000954874709'
                 },
                 {
-                    trainer: 'Estágiário Furacão',
+                    trainer: 'Contramestre Tocha',
                     city: 'Budapest',
-                    place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA',
+                    place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA (Zene óra)',
                     address: 'Rottenbiller u. 16-22.',
-                    times: [ 'Péntek: 19:00-21:00'],
+                    times: [ 'Péntek: 19:00-20:00'],
                     mapLink: 'https://www.google.com/maps/place/Rajk%C3%B3-Talentum+T%C3%A1nc-+%C3%A9s+Zenem%C5%B1v%C3%A9szeti+Iskola/@47.5008359,19.0674089,14.84z/data=!4m5!3m4!1s0x0:0xa6d1b129ebfa5d0e!8m2!3d47.5020732!4d19.0771871',
-                    facebookLink: 'https://www.facebook.com/andras.botos.3',
-                    facebookId: '100001537112922'
+                    facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    facebookId: '100000954874709'
                 },
                 {
                     trainer: 'Kriszt Sándor /Apressado/',
