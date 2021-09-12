@@ -5,20 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-staging": "vue-cli-service build --mode staging",
     "lint": "vue-cli-service lint",
+    "build-staging": "vue-cli-service build --mode staging",
     "clean": "rimraf dist && rimraf docs",
-    "copy-dist": "copyfiles 'dist/**/*' './docs/' -u 1",
-    "replace-head": "sed -i '' 's#</head>#<?php wp_head(); ?></head>#g' dist/index.html",
-    "replace-body": "sed -i '' 's#</body>#<?php wp_footer(); ?></body>#g' dist/index.html",
-    "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira-staging/wp-content/themes/vuefrontend' -u 1",
     "clean-wp": "rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/css && rimraf ../escola-capoeira-staging/wp-content/themes/vuefrontend/js",
-    "rename-wp": "mv dist/index.html dist/index.php",
+    "copy-dist": "copyfiles 'dist/**/*' './docs/' -u 1",
+    "copy-wp": "copyfiles 'dist/**/*' '../escola-capoeira-staging/wp-content/themes/vuefrontend' -u 1",
+    "deploy-gh": "npm run clean && npm run build-staging && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master",
     "deploy-wp": "npm run build && npm run replace-head && npm run replace-body && npm run rename-wp && npm run clean-wp && npm run copy-wp",
-    "deploy-gh": "npm run clean && npm run build-staging && npm run copy-dist && git checkout master && git add -A && git commit -m 'Deploy to Github pages' && git push github master"
+    "rename-wp": "mv dist/index.html dist/index.php",
+    "replace-body": "sed -i '' 's#</body>#<?php wp_footer(); ?></body>#g' dist/index.html",
+    "replace-head": "sed -i '' 's#</head>#<?php wp_head(); ?></head>#g' dist/index.html"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.4",
     "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
@@ -27,14 +27,14 @@
     "vue-gtag": "^1.7.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.6",
-    "@vue/cli-plugin-eslint": "^4.4.6",
-    "@vue/cli-service": "^4.4.6",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
