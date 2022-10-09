@@ -1,6 +1,9 @@
 # escola-capoeira-vue
 
 ## Project setup
+
+Make sure you use an older version of Node, for example `Node v16.8.0`, as this Vue project hasn't been migrated to a newer Node.
+
 ```
 npm install
 ```
