@@ -16,6 +16,9 @@ export default {
         formatPhoneLink: function(phoneNumber) {
             return 'tel:' + phoneNumber
         },
+        formatInstagramLink: function(instagramHandle) {
+            return 'https://www.instagram.com/' + instagramHandle + '/'
+        },
         redirectFacebook: function () {
             let mobileDeviceTestExp = new RegExp('Android|webOS|iPhone|iPad|' + 'BlackBerry|Windows Phone|' + 'Opera Mini|IEMobile|Mobile' , 'i');
             /* Tests if mobile device */

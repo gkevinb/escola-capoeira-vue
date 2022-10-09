@@ -1,6 +1,7 @@
 <div class="card h-100 text-center">
     <div class="card-body">
         <h3 class="card-title">{{ practice.place }}</h3>
+        <h4 class="card-title">{{ practice.type }}</h4>
         <ul v-for="time in practice.times" class="list-group list-group-flush">
             <li class="list-group-item">{{ time }}</li>
         </ul>
@@ -12,7 +13,7 @@
             </a>
             <a @click="redirectFacebook()">
                 <button type="button" class="btn btn-outline-dark button-link">
-                    <i class="fas fa-user"></i> {{ practice.trainer }}
+                    <i class="fab fa-facebook-square"></i> {{ practice.trainer }}
                 </button>
             </a>
             <a v-if="practice.websiteLink" :href="practice.websiteLink" target="_blank">
@@ -23,6 +24,11 @@
             <a v-if="practice.phone" :href="formatPhoneLink(practice.phone)" target="_blank">
                 <button type="button" class="btn btn-outline-dark button-link">
                     <i class="fas fa-phone"></i> {{ practice.phone }}
+                </button>
+            </a>
+            <a v-if="practice.instagram" :href="formatInstagramLink(practice.instagram)" target="_blank">
+                <button type="button" class="btn btn-outline-dark button-link">
+                    <i class="fab fa-instagram"></i> {{ practice.instagram }}
                 </button>
             </a>
         </div>
