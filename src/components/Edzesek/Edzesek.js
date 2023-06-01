@@ -55,15 +55,14 @@ export default {
                 //     facebookId: '100000954874709'
                 // },
                 {
-                    trainer: 'András Hegedűs /Graduado Emoção/',
+                    trainer: 'Contramestre Tocha',
                     city: 'Budapest',
                     place: 'MOZGÁSCENTRUM',
                     address: 'Lövölde tér 7',
                     times: [ 'Kedd: 18:30-20:00', 'Csütörtök: 18:30-20.00'],
                     mapLink: 'https://www.google.com/maps/place/Mozg%C3%A1scentrum/@47.5069607,19.0697023,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dda67e6ed66b:0xdf3a66c189513c0e!8m2!3d47.5070056!4d19.0719593',
-                    facebookLink: 'https://www.facebook.com/emocaogcb',
-                    facebookId: '100000225783192',
-                    phone: '+36706757090'
+                    facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    facebookId: '100000954874709'
                 },
                 // {
                 //     trainer: 'Contramestre Tocha',
@@ -97,6 +96,16 @@ export default {
                 //     facebookLink: 'https://www.facebook.com/tocha.cecab',
                 //     facebookId: '100000954874709'
                 // },
+                {
+                    trainer: 'Contramestre Tocha',
+                    city: 'Budapest',
+                    place: 'LÓNYAY UTCAI REFORMÁTUS GIMNÁZIUM ÉS KOLLÉGIUM GIMNÁZIUM',
+                    address: 'Kinizsi utca 1-7.',
+                    times: [ 'Péntek: 16:00-17:30'],
+                    mapLink: 'https://goo.gl/maps/CKXyc1iFAybv8ts38',
+                    facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    facebookId: '100000954874709'
+                },
                 {
                     trainer: 'Kriszt Sándor /Apressado/',
                     city: 'Kecskemét',
