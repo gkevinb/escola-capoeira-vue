@@ -20,10 +20,17 @@ export default {
                 },
                 {
                     name: 'Botos András',
-                    capoeiraName: 'Estágiário Furacão',
+                    capoeiraName: 'Graduado Furacão',
                     facebookLink: 'https://www.facebook.com/andras.botos.3',
                     facebookId: '100001537112922',
                     phone: '+36303142189'
+                },
+                {
+                  name: 'Bodzsár Enikő',
+                  capoeiraName: 'Graduada Gaivota',
+                  facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
+                  facebookId: '100001667319907',
+                  phone: '+36706703696'
                 }
             ]
         };
