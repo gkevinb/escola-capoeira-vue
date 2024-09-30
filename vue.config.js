@@ -3,7 +3,7 @@ module.exports = {
 }
 function determineEnvirontment(env){
     if (env === 'production')
-        return '/wp-content/themes/vuefrontend/'
+        return '/'
     if (env === 'staging')
         return '/escola-capoeira-vue/'
     else

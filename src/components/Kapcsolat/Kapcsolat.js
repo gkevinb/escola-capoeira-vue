@@ -11,13 +11,13 @@ export default {
                     facebookId: '100000954874709',
                     phone: '+36305812192'
                 },
-                {
-                    name: 'Torma Andrea',
-                    capoeiraName: 'Aluna Felina',
-                    facebookLink: 'https://www.facebook.com/andrea.torma.9',
-                    facebookId: '1069949104',
-                    phone: '+36306111051'
-                },
+                // {
+                //     name: 'Torma Andrea',
+                //     capoeiraName: 'Aluna Felina',
+                //     facebookLink: 'https://www.facebook.com/andrea.torma.9',
+                //     facebookId: '1069949104',
+                //     phone: '+36306111051'
+                // },
                 {
                     name: 'Botos András',
                     capoeiraName: 'Graduado Furacão',

@@ -66,3 +66,10 @@ EscolaCapoeira
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+# New Server
+
+admin dotroll
+
+Also when deploying remember to clear Nginx cache.

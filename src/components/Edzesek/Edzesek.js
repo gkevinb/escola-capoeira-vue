@@ -23,17 +23,17 @@ export default {
                 //     facebookLink: 'https://www.facebook.com/tocha.cecab',
                 //     facebookId: '100000954874709'
                 // },
-                {
-                    trainer: 'Bodzsár Enikő /Gaivota/',
-                    city: 'Budapest',
-                    place: 'MOZGÁSCENTRUM',
-                    address: 'Lövölde tér 7',
-                    times: [ 'Kedd: 18:30-20:00', 'Csütörtök: 18:30-20.00'],
-                    mapLink: 'https://www.google.com/maps/place/Mozg%C3%A1scentrum/@47.5069607,19.0697023,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dda67e6ed66b:0xdf3a66c189513c0e!8m2!3d47.5070056!4d19.0719593',
-                    facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
-                    facebookId: '100001667319907',
-                    phone: '+36706703696'
-                },
+                // {
+                //     trainer: 'Bodzsár Enikő /Gaivota/',
+                //     city: 'Budapest',
+                //     place: 'MOZGÁSCENTRUM',
+                //     address: 'Lövölde tér 7',
+                //     times: [ 'Kedd: 18:30-20:00', 'Csütörtök: 18:30-20.00'],
+                //     mapLink: 'https://www.google.com/maps/place/Mozg%C3%A1scentrum/@47.5069607,19.0697023,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dda67e6ed66b:0xdf3a66c189513c0e!8m2!3d47.5070056!4d19.0719593',
+                //     facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
+                //     facebookId: '100001667319907',
+                //     phone: '+36706703696'
+                // },
                 {
                     trainer: 'Contramestre Tocha',
                     city: 'Budapest',
@@ -75,18 +75,18 @@ export default {
                 //     facebookLink: 'https://www.facebook.com/tocha.cecab',
                 //     facebookId: '100000954874709'
                 // },
-                {
-                    trainer: 'Bodzsár Enikő /Gaivota/',
-                    city: 'Budapest',
-                    place: 'CSÍK FERENC ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM',
-                    type: '(Gyerek edzés)',
-                    address: 'Medve utca 5-7.',
-                    times: [ 'Kedd: 17:00-18:00', 'Csütörtök: 17:00-18:00'],
-                    mapLink: 'https://www.google.hu/maps/place/Csik+Ferenc+%C3%81ltal%C3%A1nos+Iskola+%C3%A9s+Gimn%C3%A1zium/@47.508314,19.0353854,19z/data=!4m13!1m7!3m6!1s0x4741dc1b8a0a946f:0xfa739fdd81afe4e2!2sBudapest,+Medve+u.+1,+1027!3b1!8m2!3d47.5079118!4d19.0358038!3m4!1s0x4741dc1b8a4a5b75:0xdac38a057a5e5a68!8m2!3d47.508614!4d19.03577',
-                    facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
-                    facebookId: '100001667319907',
-                    phone: '+36706703696'
-                },
+                // {
+                //     trainer: 'Bodzsár Enikő /Gaivota/',
+                //     city: 'Budapest',
+                //     place: 'CSÍK FERENC ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM',
+                //     type: '(Gyerek edzés)',
+                //     address: 'Medve utca 5-7.',
+                //     times: [ 'Kedd: 17:00-18:00', 'Csütörtök: 17:00-18:00'],
+                //     mapLink: 'https://www.google.hu/maps/place/Csik+Ferenc+%C3%81ltal%C3%A1nos+Iskola+%C3%A9s+Gimn%C3%A1zium/@47.508314,19.0353854,19z/data=!4m13!1m7!3m6!1s0x4741dc1b8a0a946f:0xfa739fdd81afe4e2!2sBudapest,+Medve+u.+1,+1027!3b1!8m2!3d47.5079118!4d19.0358038!3m4!1s0x4741dc1b8a4a5b75:0xdac38a057a5e5a68!8m2!3d47.508614!4d19.03577',
+                //     facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
+                //     facebookId: '100001667319907',
+                //     phone: '+36706703696'
+                // },
                 // {
                 //     trainer: 'Contramestre Tocha',
                 //     city: 'Budapest',
@@ -98,63 +98,63 @@ export default {
                 //     facebookLink: 'https://www.facebook.com/tocha.cecab',
                 //     facebookId: '100000954874709'
                 // },
-                {
-                    trainer: 'Botos András /Furacão/',
-                    city: 'Budapest',
-                    place: 'LÓNYAY UTCAI REFORMÁTUS GIMNÁZIUM ÉS KOLLÉGIUM',
-                    address: 'Kinizsi utca 1-7.',
-                    times: [ 'Péntek: 16:00-17:30'],
-                    mapLink: 'https://goo.gl/maps/CKXyc1iFAybv8ts38',
-                    facebookLink: 'https://www.facebook.com/andras.botos.3',
-                    facebookId: '100001537112922',
-                    phone: '+36303142189'
-                },
-                {
-                    trainer: 'Kriszt Sándor /Apressado/',
-                    city: 'Kecskemét',
-                    place: 'ZRÍNYI ILONA ÁLTALÁNOS ISKOLA',
-                    address: 'Katona József tér 14',
-                    times: [ 'Kedd: 18:00-19:30', 'Csütörtök: 18:00-19:30'],
-                    mapLink: 'https://www.google.hu/maps?q=Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14.&hl=hu&ie=UTF8&ll=46.905238,19.694216&spn=0.002104,0.006539&sll=46.904908,19.695413&sspn=0.002104,0.006539&hnear=6000+Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14&t=m&z=18',
-                    // facebookLink: 'https://www.facebook.com/kriszt.sandor',
-                    // facebookId: '100000745997402',
-                    facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
-                    facebookId: '474188249324250',
-                    websiteLink : 'http://capoeirakecskemet.hu/',
-                    instagram : 'capoeira.kecskemet',
-                    phone: '+36305412899'
-                },
-                {
-                    trainer: 'Kriszt Sándor /Apressado/',
-                    city: 'Kecskemét',
-                    place: 'ZRÍNYI ILONA ÁLTALÁNOS ISKOLA',
-                    type: '(Gyerek edzés)',
-                    address: 'Katona József tér 14',
-                    times: [ 'Kedd: 17:00-18:00', 'Csütörtök: 17:00-18:00'],
-                    mapLink: 'https://www.google.hu/maps?q=Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14.&hl=hu&ie=UTF8&ll=46.905238,19.694216&spn=0.002104,0.006539&sll=46.904908,19.695413&sspn=0.002104,0.006539&hnear=6000+Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14&t=m&z=18',
-                    // facebookLink: 'https://www.facebook.com/kriszt.sandor',
-                    // facebookId: '100000745997402',
-                    facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
-                    facebookId: '474188249324250',
-                    websiteLink : 'http://capoeirakecskemet.hu/',
-                    instagram : 'capoeira.kecskemet',
-                    phone: '+36305412899'
-                },
-                {
-                    trainer: 'Kriszt Sándor /Apressado/',
-                    city: 'Kecskemét',
-                    place: 'HAKKODA DOJO',
-                    address: 'Burga utca 1.',
-                    times: [ 'Vasárnap 17:00-18:30'],
-                    mapLink: 'https://www.google.com/maps/place/Kecskem%C3%A9t,+Burga+u.+1,+6000/@46.9008225,19.6820888,15.23z/data=!4m5!3m4!1s0x4743da6cb54ca53d:0x7356ff80c2b12d43!8m2!3d46.9015536!4d19.6866855',
-                    // facebookLink: 'https://www.facebook.com/kriszt.sandor',
-                    // facebookId: '100000745997402',
-                    facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
-                    facebookId: '474188249324250',
-                    websiteLink : 'http://capoeirakecskemet.hu/',
-                    instagram : 'capoeira.kecskemet',
-                    phone: '+36305412899'
-                }
+                // {
+                //     trainer: 'Botos András /Furacão/',
+                //     city: 'Budapest',
+                //     place: 'LÓNYAY UTCAI REFORMÁTUS GIMNÁZIUM ÉS KOLLÉGIUM',
+                //     address: 'Kinizsi utca 1-7.',
+                //     times: [ 'Péntek: 16:00-17:30'],
+                //     mapLink: 'https://goo.gl/maps/CKXyc1iFAybv8ts38',
+                //     facebookLink: 'https://www.facebook.com/andras.botos.3',
+                //     facebookId: '100001537112922',
+                //     phone: '+36303142189'
+                // },
+                // {
+                //     trainer: 'Kriszt Sándor /Apressado/',
+                //     city: 'Kecskemét',
+                //     place: 'ZRÍNYI ILONA ÁLTALÁNOS ISKOLA',
+                //     address: 'Katona József tér 14',
+                //     times: [ 'Kedd: 18:00-19:30', 'Csütörtök: 18:00-19:30'],
+                //     mapLink: 'https://www.google.hu/maps?q=Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14.&hl=hu&ie=UTF8&ll=46.905238,19.694216&spn=0.002104,0.006539&sll=46.904908,19.695413&sspn=0.002104,0.006539&hnear=6000+Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14&t=m&z=18',
+                //     // facebookLink: 'https://www.facebook.com/kriszt.sandor',
+                //     // facebookId: '100000745997402',
+                //     facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
+                //     facebookId: '474188249324250',
+                //     websiteLink : 'http://capoeirakecskemet.hu/',
+                //     instagram : 'capoeira.kecskemet',
+                //     phone: '+36305412899'
+                // },
+                // {
+                //     trainer: 'Kriszt Sándor /Apressado/',
+                //     city: 'Kecskemét',
+                //     place: 'ZRÍNYI ILONA ÁLTALÁNOS ISKOLA',
+                //     type: '(Gyerek edzés)',
+                //     address: 'Katona József tér 14',
+                //     times: [ 'Kedd: 17:00-18:00', 'Csütörtök: 17:00-18:00'],
+                //     mapLink: 'https://www.google.hu/maps?q=Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14.&hl=hu&ie=UTF8&ll=46.905238,19.694216&spn=0.002104,0.006539&sll=46.904908,19.695413&sspn=0.002104,0.006539&hnear=6000+Kecskem%C3%A9t,+Katona+J%C3%B3zsef+t%C3%A9r+14&t=m&z=18',
+                //     // facebookLink: 'https://www.facebook.com/kriszt.sandor',
+                //     // facebookId: '100000745997402',
+                //     facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
+                //     facebookId: '474188249324250',
+                //     websiteLink : 'http://capoeirakecskemet.hu/',
+                //     instagram : 'capoeira.kecskemet',
+                //     phone: '+36305412899'
+                // },
+                // {
+                //     trainer: 'Kriszt Sándor /Apressado/',
+                //     city: 'Kecskemét',
+                //     place: 'HAKKODA DOJO',
+                //     address: 'Burga utca 1.',
+                //     times: [ 'Vasárnap 17:00-18:30'],
+                //     mapLink: 'https://www.google.com/maps/place/Kecskem%C3%A9t,+Burga+u.+1,+6000/@46.9008225,19.6820888,15.23z/data=!4m5!3m4!1s0x4743da6cb54ca53d:0x7356ff80c2b12d43!8m2!3d46.9015536!4d19.6866855',
+                //     // facebookLink: 'https://www.facebook.com/kriszt.sandor',
+                //     // facebookId: '100000745997402',
+                //     facebookLink: 'https://www.facebook.com/capoeira.kecskemet',
+                //     facebookId: '474188249324250',
+                //     websiteLink : 'http://capoeirakecskemet.hu/',
+                //     instagram : 'capoeira.kecskemet',
+                //     phone: '+36305412899'
+                // }
             ]
         };
     },
