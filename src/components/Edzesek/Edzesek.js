@@ -42,7 +42,8 @@ export default {
                     times: [ 'Hétfő: 19:00-20:30', 'Szerda: 18:30-20:00'],
                     mapLink: 'https://www.google.com/maps/place/V%C3%B6r%C3%B6smarty+Mih%C3%A1ly+High+School/@47.4906453,19.06317,16z/data=!4m5!3m4!1s0x4741dc5c10045203:0x2df4549a94f59955!8m2!3d47.4918825!4d19.0674842',
                     facebookLink: 'https://www.facebook.com/tocha.cecab',
-                    facebookId: '100000954874709'
+                    facebookId: '100000954874709',
+                    phone: '+36305812192'
                 },
                 // {
                 //     trainer: 'Contramestre Tocha',
@@ -75,6 +76,18 @@ export default {
                 //     facebookLink: 'https://www.facebook.com/tocha.cecab',
                 //     facebookId: '100000954874709'
                 // },
+                {
+                    trainer: 'Bodzsár Enikő /Gaivota/',
+                    city: 'Budapest',
+                    place: 'MOLNÁR FERENC MAGYAR–ANGOL KÉT TANÍTÁSI NYELVŰ ÁLTALÁNOS ISKOLA',
+                    type: '(Gyerek edzés)',
+                    address: 'Somogyi Béla u. 9-15.',
+                    times: ['Csütörtök: 16:00-17:00'],
+                    mapLink: 'https://maps.app.goo.gl/3cLm83TWDY366ABi6',
+                    facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
+                    facebookId: '100001667319907',
+                    phone: '+36706703696'
+                },
                 // {
                 //     trainer: 'Bodzsár Enikő /Gaivota/',
                 //     city: 'Budapest',
