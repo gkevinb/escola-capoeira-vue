@@ -70,6 +70,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # New Server
 
-admin dotroll
+admin.dotroll.com
 
-Also when deploying remember to clear Nginx cache.
+Login, and go to escolacapoeira domain settings.
+
+Cpanel -> FTP
+
+Add new FTP account, set up username and password.
+
+Könyvtár
+/home/escolacapoeira/ (leave blank)
+
+Use FileZilla to connect to the server.
+
+And upload contents of `dist` directory to `/home/escolacapoeira/public_html`.
+
+
+Also when deploying remember to clear Nginx cache. (not seen anywhere on admin page)
