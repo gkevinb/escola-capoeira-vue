@@ -1,5 +1,5 @@
 import NavMenu from '../components/NavMenu/NavMenu.vue'
-import Kezdolap from '../components/Kezdolap/Kezdolap.vue'
+// import Kezdolap from '../components/Kezdolap/Kezdolap.vue'
 import Edzesek from '../components/Edzesek/Edzesek.vue'
 import Rolunk from '../components/Rolunk/Rolunk.vue'
 import Kapcsolat from '../components/Kapcsolat/Kapcsolat.vue'
@@ -12,9 +12,9 @@ export default {
     name: "app",
     components: {
         'nav-menu': NavMenu,
-        'kezdőlap-tab': Kezdolap,
+        'kezdőlap-tab': Rolunk,
         'edzések-tab': Edzesek,
-        'rólunk-tab': Rolunk,
+        // 'rólunk-tab': Rolunk,
         'kapcsolat-tab': Kapcsolat,
         'képgaléria-tab': KepGallery,
         'footer-comp': Footer
@@ -26,7 +26,7 @@ export default {
                 KEZDŐLAP: [],
                 EDZÉSEK: [],
                 KÉPGALÉRIA: [],
-                RÓLUNK: [],
+                // RÓLUNK: [],
                 KAPCSOLAT: []
             },
             apis: [

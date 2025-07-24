@@ -13,16 +13,16 @@ export default {
     data() {
         return {
             practices: [
-                // {
-                //     trainer: 'Contramestre Tocha',
-                //     city: 'Budapest',
-                //     place: 'VÁROSLIGET (Nyári Edzés)',
-                //     address: 'Városliget',
-                //     times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
-                //     mapLink: 'https://goo.gl/maps/8iyCsvdxatjGDEx9A',
-                //     facebookLink: 'https://www.facebook.com/tocha.cecab',
-                //     facebookId: '100000954874709'
-                // },
+                {
+                    trainer: 'Contramestre Tocha',
+                    city: 'Budapest',
+                    place: 'VÁROSLIGET (Nyári Edzés)',
+                    address: 'Városliget',
+                    times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
+                    mapLink: 'https://goo.gl/maps/8iyCsvdxatjGDEx9A',
+                    facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    facebookId: '100000954874709'
+                },
                 // {
                 //     trainer: 'Bodzsár Enikő /Gaivota/',
                 //     city: 'Budapest',
