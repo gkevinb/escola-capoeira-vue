@@ -83,6 +83,9 @@ Könyvtár
 
 Use FileZilla to connect to the server.
 
+Host: ftp.escolacapoeira.hu
+Port: 21
+
 And upload contents of `dist` directory to `/home/escolacapoeira/public_html`.
 
 
