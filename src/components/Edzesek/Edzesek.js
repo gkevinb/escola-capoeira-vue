@@ -13,17 +13,18 @@ export default {
     data() {
         return {
             practices: [
-                {
-                    trainer: 'Contramestre Tocha',
-                    city: 'Budapest',
-                    place: 'VÁROSLIGET (Nyári Edzés)',
-                    address: 'Városliget',
-                    times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
-                    mapLink: 'https://goo.gl/maps/8iyCsvdxatjGDEx9A',
-                    facebookLink: 'https://www.facebook.com/tocha.cecab',
-                    facebookId: '100000954874709'
-                },
-                // {
+              {
+                  trainer: 'Contramestre Tocha',
+                  city: 'Budapest',
+                  place: 'VÖRÖSMARTY MIHÁLY GIMNÁZIUM',
+                  address: 'Horánszky utca 11.',
+                  times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20:30'],
+                  mapLink: 'https://www.google.com/maps/place/V%C3%B6r%C3%B6smarty+Mih%C3%A1ly+High+School/@47.4906453,19.06317,16z/data=!4m5!3m4!1s0x4741dc5c10045203:0x2df4549a94f59955!8m2!3d47.4918825!4d19.0674842',
+                  facebookLink: 'https://www.facebook.com/tocha.cecab',
+                  facebookId: '100000954874709',
+                  phone: '+36305812192'
+              },
+              // {
                 //     trainer: 'Bodzsár Enikő /Gaivota/',
                 //     city: 'Budapest',
                 //     place: 'MOZGÁSCENTRUM',
@@ -34,62 +35,61 @@ export default {
                 //     facebookId: '100001667319907',
                 //     phone: '+36706703696'
                 // },
-                {
-                    trainer: 'Contramestre Tocha',
-                    city: 'Budapest',
-                    place: 'VÖRÖSMARTY MIHÁLY GIMNÁZIUM',
-                    address: 'Horánszky utca 11.',
-                    times: [ 'Hétfő: 19:00-20:30', 'Szerda: 18:30-20:00'],
-                    mapLink: 'https://www.google.com/maps/place/V%C3%B6r%C3%B6smarty+Mih%C3%A1ly+High+School/@47.4906453,19.06317,16z/data=!4m5!3m4!1s0x4741dc5c10045203:0x2df4549a94f59955!8m2!3d47.4918825!4d19.0674842',
-                    facebookLink: 'https://www.facebook.com/tocha.cecab',
-                    facebookId: '100000954874709',
-                    phone: '+36305812192'
-                },
                 // {
-                //     trainer: 'Contramestre Tocha',
-                //     city: 'Budapest',
-                //     place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA',
-                //     type: '(Kezdő edzés)',
-                //     address: 'Rottenbiller u. 16-22.',
-                //     times: [ 'Hétfő: 18:00-19:00', 'Szerda: 18:00-19:00'],
-                //     mapLink: 'https://www.google.com/maps/place/Rajk%C3%B3-Talentum+T%C3%A1nc-+%C3%A9s+Zenem%C5%B1v%C3%A9szeti+Iskola/@47.5008359,19.0674089,14.84z/data=!4m5!3m4!1s0x0:0xa6d1b129ebfa5d0e!8m2!3d47.5020732!4d19.0771871',
-                //     facebookLink: 'https://www.facebook.com/tocha.cecab',
-                //     facebookId: '100000954874709'
-                // },
-                // {
-                //     trainer: 'Contramestre Tocha',
-                //     city: 'Budapest',
-                //     place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA',
-                //     address: 'Rottenbiller u. 16-22.',
-                //     times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
-                //     mapLink: 'https://www.google.com/maps/place/Rajk%C3%B3-Talentum+T%C3%A1nc-+%C3%A9s+Zenem%C5%B1v%C3%A9szeti+Iskola/@47.5008359,19.0674089,14.84z/data=!4m5!3m4!1s0x0:0xa6d1b129ebfa5d0e!8m2!3d47.5020732!4d19.0771871',
-                //     facebookLink: 'https://www.facebook.com/tocha.cecab',
-                //     facebookId: '100000954874709'
-                // },
-                // {
-                //     trainer: 'Contramestre Tocha',
-                //     city: 'Budapest',
-                //     place: 'BME SPORTKÖZPONT',
-                //     address: 'Bertalan Lajos utca 4-6.',
-                //     times: [ 'Szerda: 17:00-18:00', 'Péntek: 16:30-17:30'],
-                //     mapLink: 'https://www.google.com/maps/place/BME+Sport+Center/@47.4795111,19.0533978,15.35z/data=!4m5!3m4!1s0x4741dc530fe8a959:0x74e47bc7a728a3ff!8m2!3d47.4796628!4d19.0575069',
-                //     facebookLink: 'https://www.facebook.com/tocha.cecab',
-                //     facebookId: '100000954874709'
-                // },
-                {
-                    trainer: 'Bodzsár Enikő /Gaivota/',
-                    city: 'Budapest',
-                    place: 'MOLNÁR FERENC MAGYAR–ANGOL KÉT TANÍTÁSI NYELVŰ ÁLTALÁNOS ISKOLA',
-                    type: '(Gyerek edzés)',
-                    address: 'Somogyi Béla u. 9-15.',
-                    times: ['Csütörtök: 16:00-17:00'],
-                    mapLink: 'https://maps.app.goo.gl/3cLm83TWDY366ABi6',
-                    facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
-                    facebookId: '100001667319907',
-                    phone: '+36706703696'
-                },
-                // {
-                //     trainer: 'Bodzsár Enikő /Gaivota/',
+                  //     trainer: 'Contramestre Tocha',
+                  //     city: 'Budapest',
+                  //     place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA',
+                  //     type: '(Kezdő edzés)',
+                  //     address: 'Rottenbiller u. 16-22.',
+                  //     times: [ 'Hétfő: 18:00-19:00', 'Szerda: 18:00-19:00'],
+                  //     mapLink: 'https://www.google.com/maps/place/Rajk%C3%B3-Talentum+T%C3%A1nc-+%C3%A9s+Zenem%C5%B1v%C3%A9szeti+Iskola/@47.5008359,19.0674089,14.84z/data=!4m5!3m4!1s0x0:0xa6d1b129ebfa5d0e!8m2!3d47.5020732!4d19.0771871',
+                  //     facebookLink: 'https://www.facebook.com/tocha.cecab',
+                  //     facebookId: '100000954874709'
+                  // },
+                  // {
+                    //     trainer: 'Contramestre Tocha',
+                    //     city: 'Budapest',
+                    //     place: 'RAJKÓ-TALENTUM TÁNC ÉS ZENEMŰVÉSZETI ISKOLA',
+                    //     address: 'Rottenbiller u. 16-22.',
+                    //     times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
+                    //     mapLink: 'https://www.google.com/maps/place/Rajk%C3%B3-Talentum+T%C3%A1nc-+%C3%A9s+Zenem%C5%B1v%C3%A9szeti+Iskola/@47.5008359,19.0674089,14.84z/data=!4m5!3m4!1s0x0:0xa6d1b129ebfa5d0e!8m2!3d47.5020732!4d19.0771871',
+                    //     facebookLink: 'https://www.facebook.com/tocha.cecab',
+                    //     facebookId: '100000954874709'
+                    // },
+                    // {
+                      //     trainer: 'Contramestre Tocha',
+                      //     city: 'Budapest',
+                      //     place: 'BME SPORTKÖZPONT',
+                      //     address: 'Bertalan Lajos utca 4-6.',
+                      //     times: [ 'Szerda: 17:00-18:00', 'Péntek: 16:30-17:30'],
+                      //     mapLink: 'https://www.google.com/maps/place/BME+Sport+Center/@47.4795111,19.0533978,15.35z/data=!4m5!3m4!1s0x4741dc530fe8a959:0x74e47bc7a728a3ff!8m2!3d47.4796628!4d19.0575069',
+                      //     facebookLink: 'https://www.facebook.com/tocha.cecab',
+                      //     facebookId: '100000954874709'
+                      // },
+                      {
+                        trainer: 'Bodzsár Enikő /Gaivota/',
+                        city: 'Budapest',
+                        place: 'MOLNÁR FERENC MAGYAR–ANGOL KÉT TANÍTÁSI NYELVŰ ÁLTALÁNOS ISKOLA',
+                        type: '(Gyerek edzés)',
+                        address: 'Somogyi Béla u. 9-15.',
+                        times: ['Csütörtök: 16:00-17:00'],
+                        mapLink: 'https://maps.app.goo.gl/3cLm83TWDY366ABi6',
+                        facebookLink: 'https://www.facebook.com/enikogaivota.bodzsar',
+                        facebookId: '100001667319907',
+                        phone: '+36706703696'
+                      },
+                      // {
+                      //       trainer: 'Contramestre Tocha',
+                      //       city: 'Budapest',
+                      //       place: 'VÁROSLIGET (Nyári Edzés)',
+                      //       address: 'Városliget',
+                      //       times: [ 'Hétfő: 19:00-20:30', 'Szerda: 19:00-20.30'],
+                      //       mapLink: 'https://goo.gl/maps/8iyCsvdxatjGDEx9A',
+                      //       facebookLink: 'https://www.facebook.com/tocha.cecab',
+                      //       facebookId: '100000954874709'
+                      //   },
+                      // {
+                        //     trainer: 'Bodzsár Enikő /Gaivota/',
                 //     city: 'Budapest',
                 //     place: 'CSÍK FERENC ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM',
                 //     type: '(Gyerek edzés)',
